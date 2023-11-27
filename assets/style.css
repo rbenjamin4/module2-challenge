@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Small screens, laptops – 769px — 1024px */
+@media screen and (min-width: 769px) {
+    
+header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav {
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+}
