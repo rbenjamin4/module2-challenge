@@ -18,8 +18,7 @@ main, footer {
 }
 
 h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 img.avatar {
@@ -36,7 +35,18 @@ p {
     margin: 10px auto;
 }
 
-section.work {
+footer {
+    margin-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    margin-top: 10px;
+}
+
+.section-work {
     margin: 20px auto;
 }
 
@@ -51,6 +61,7 @@ section.work {
     margin: 10px auto;
 }
 
-footer {
-    padding-bottom: 50px;
+.about-me {
+    margin-bottom: 30px;
 }
+
