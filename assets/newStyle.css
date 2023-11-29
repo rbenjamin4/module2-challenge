@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html { 
+    scroll-behavior: smooth; 
+} 
+
 header {
     background-color: cadetblue;
     display: flex;
@@ -86,4 +90,3 @@ footer a {
 .about-me {
     margin-bottom: 30px;
 }
-
