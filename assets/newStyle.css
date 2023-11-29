@@ -116,9 +116,31 @@ footer a {
         height: auto;
     }
 
-    .flex-grid {
-        display: flex;
-        flex-wrap: wrap;
-    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .secondary-img {
+        width: 220px;
+        height: auto;
+    }   
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .secondary-img {
+        width: 320px;
+        height: auto;
+    }  
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .secondary-img {
+        width: 400px;
+        height: auto;
+    }  
 
 }
