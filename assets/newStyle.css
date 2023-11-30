@@ -101,6 +101,25 @@ footer a {
     margin-bottom: 30px;
 }
 
+/*
+.main-img-container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.main-img-text {
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    background-color: rgba(209, 204, 204, 0.613);
+    padding: 10px;
+}
+*/
+
 @media screen and (min-width: 481px) {
     
     h1, h2 {
@@ -118,7 +137,7 @@ footer a {
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
 
     .secondary-img {
         width: 220px;
@@ -169,6 +188,15 @@ footer a {
 
     .secondary-img {
         width: 400px;
+        height: auto;
+    }  
+
+}
+
+@media screen and (min-width: 1800px) {
+
+    .secondary-img {
+        width: 500px;
         height: auto;
     }  
 
