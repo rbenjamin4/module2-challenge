@@ -118,7 +118,7 @@ footer a {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 
     .secondary-img {
         width: 220px;
@@ -127,16 +127,45 @@ footer a {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    nav {
+        margin-right: 20px;
+    }
+
+    nav a {
+        padding: 0px 15px;
+        font-family: "Nunito", Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+     }
+
+     h1 {
+        margin-bottom: 0;
+     }
+
+    img.avatar {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 10%;
+        height: auto;
+    }
 
     .secondary-img {
-        width: 320px;
+        width: 300px;
         height: auto;
     }  
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
 
     .secondary-img {
         width: 400px;
