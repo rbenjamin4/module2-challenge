@@ -7,7 +7,7 @@ Portfolio website to showcase different examples of web development work.
 
 ## Installation
 
-Clone repo: https://github.com/rbenjamin4/module2-challenge
+Clone repo: https://github.com/rbenjamin4/portfolio
 
 
 ## Credits
