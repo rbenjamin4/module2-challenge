@@ -4,6 +4,7 @@
 
 Portfolio website to showcase different examples of web development work. 
 
+![Alt text](/assets/images/rbenjamin4.github.io_portfolio_.png?raw=true "Website screenshot")
 
 ## Installation
 
